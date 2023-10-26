@@ -13,3 +13,6 @@ Comparisons between Elastica beam (considering geometrical nonlinearity) model a
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="60"/>
 <p>
+
+**Conditions**
+Pure bending problem for the cantilever beam.
