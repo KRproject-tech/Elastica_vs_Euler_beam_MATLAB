@@ -36,6 +36,11 @@ plot( h_ax(i_ax), r_x( s_vec, m0_vec).', r_y( s_vec, m0_vec).', 'r', 'LineWidth'
 axis( h_ax(i_ax), 'equal')
 xlim( h_ax(i_ax), [ -0.5 1])
 ylim( h_ax(i_ax), [ 0 1])
+xlabel( h_ax(i_ax), '{\itx} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+ylabel( h_ax(i_ax), '{\ity} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+
+set( h_ax(i_ax), 'FontName', 'Times New Roman')
+
 
 
 i_ax = i_ax + 1;
@@ -47,6 +52,11 @@ plot( h_ax(i_ax), r_x_L( s_vec, m0_vec).', r_y_L( s_vec, m0_vec).', 'b', 'LineWi
 axis( h_ax(i_ax), 'equal')
 xlim( h_ax(i_ax), [ 0 1])
 ylim( h_ax(i_ax), [ 0 3])
+xlabel( h_ax(i_ax), '{\itx} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+ylabel( h_ax(i_ax), '{\ity} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+
+set( h_ax(i_ax), 'FontName', 'Times New Roman')
+
 
 
 i_ax = i_ax + 1;
@@ -60,6 +70,10 @@ plot( h_ax(i_ax), r_x( s_vec, m0_vec2).', r_y( s_vec, m0_vec2).', 'r-', r_x_L( s
 axis( h_ax(i_ax), 'equal')
 xlim( h_ax(i_ax), [ 0 1])
 ylim( h_ax(i_ax), [ 0 0.5])
+xlabel( h_ax(i_ax), '{\itx} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+ylabel( h_ax(i_ax), '{\ity} position', 'FontSize', 15, 'FontName', 'Times New Roman')
+
+set( h_ax(i_ax), 'FontName', 'Times New Roman')
 
 
 %% save
@@ -69,5 +83,9 @@ fig_name = { 'Elastica', 'Linear', 'Comparisons'};
 for ii=1:length( fig_name)
    
     saveas( h_fig(ii), [ './fig/', fig_name{ii}, '.fig'])
+    set( h_fig(ii), 'PaperPositionMode', 'auto')
+    fig_pos = get( h_fig(ii), 'PaperPosition');
+    set( h_fig(ii), 'Papersize', [fig_pos(3) fig_pos(4)]);
+    saveas( h_fig(ii), [ './fig/', fig_name{ii}, '.pdf'])
 end
 
