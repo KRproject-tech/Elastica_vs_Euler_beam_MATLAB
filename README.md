@@ -1,5 +1,5 @@
 # Elastica_vs_Euler_beam_MATLAB
-Comparisons between Elastica beam (considering geometrical nonlinearity) model and Euler beam model (linear) under the pure bending problem.
+Comparisons of analytical solutions for displacement under the pure bending problem between the Elastica beam (considering geometrical nonlinearity) model and the Euler–Bernoulli beam model (linear) .
 
 
 **Communication**
