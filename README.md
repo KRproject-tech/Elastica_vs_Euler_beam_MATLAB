@@ -26,10 +26,10 @@ We consider the analytical solutions for displacement under the pure bending pro
 Position $\zeta$ on complex coordinates at the midline $s'$ on a cantilever is denoted as follows;
 
 $$
-\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s' \in \mathbb{C}.
+\zeta(s) := v(s) + j w(s) = \int_0^s e^{j\theta(s')} \rm{d}s' \in \mathbb{C}.
 $$
 
-where $\theta$ is the gradient of a cantilever.
+where $\theta$ is the gradient of a cantilever, and $v$ and $w$ is the position along $x$ and $y$ directions.
 
 From the relationship between bending moment $M$ and curvature $\partial_s \theta(s)$ is represented by
 
