@@ -77,9 +77,10 @@ Then,
 $$
 \begin{array}{ll}
 w(s) =  \rm{Im}(\zeta(s))    &=  \dfrac{EI}{M_0} \left( 1 - \cos{\dfrac{M_0}{EI}s} \right)  \\
-                             &=: \dfrac{L}{m_0} \left( 1 - \cos{\dfrac{m_0}{L}s} \right)    \\
+                             &=: \dfrac{L}{m_0} \left( 1 - \cos{\dfrac{m_0}{L}s} \right),    \\
 v(s) =  \rm{Re}(\zeta(s))    &=  \dfrac{L}{m_0} \sin{\dfrac{m_0}{L}s}.                             
 \end{array}
 $$
 
+where $m_0 := \dfrac{M_0 L}{EI}$ is the nondimensionalized bending moment.
 
