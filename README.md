@@ -20,4 +20,7 @@ Pure bending problem for a cantilever beam.
 ![図1](https://github.com/KRproject-tech/Elastica_vs_Euler_beam_MATLAB/assets/114337358/6290372a-0a76-4add-a860-4353f00aed6b)
 
 # Analytical solutions
-
+Position ''\zeta'' at the midline '' s' '' on a cantilever is denoted as follows;
+$$
+\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s'.
+$$
