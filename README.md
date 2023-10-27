@@ -84,3 +84,8 @@ $$
 
 where $m_0 := \dfrac{M_0 L}{EI}$ is the nondimensionalized bending moment.
 
+The relationship between $v$ and $w$ is obtained as follows,
+
+$$
+v^2(s) + w^2(s) = 2 \dfrac{L}{m_0} w(s).
+$$
