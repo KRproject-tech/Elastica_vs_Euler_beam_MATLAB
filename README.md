@@ -26,7 +26,7 @@ We consider the analytical solutions for displacement under the pure bending pro
 Position $\zeta$ on complex coordinates at the midline $s'$ on a cantilever is denoted as follows;
 
 $$
-\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s'.
+\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s' \in \mathbb{C}.
 $$
 
 where $\theta$ is the gradient of a cantilever.
@@ -49,12 +49,12 @@ Then, the gradient of a cantilever is obtained as,
 
 $$
 \begin{array}{l}
-\partial_s \theta (s) = \frac{M_0}{EI}, \\
-\Rightarrow	\theta(s) = \frac{M_0}{EI} s + C_0 \\
+\partial_s \theta (s) = \dfrac{M_0}{EI}, \\
+\Rightarrow	\theta(s) = \dfrac{M_0}{EI} s + C_0 \\
 \end{array}
 $$
 
-From the boundary conditions for clamped edge,
+From the boundary conditions for the clamped edge,
 
 $$
 \theta(0) = C_0 = 0.
