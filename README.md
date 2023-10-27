@@ -18,3 +18,5 @@ Comparisons of analytical solutions for displacement under the pure bending prob
 Pure bending problem for a cantilever beam.
 
 ![図1](https://github.com/KRproject-tech/Elastica_vs_Euler_beam_MATLAB/assets/114337358/6290372a-0a76-4add-a860-4353f00aed6b)
+
+# Analytical solutions under the pure bending problem
