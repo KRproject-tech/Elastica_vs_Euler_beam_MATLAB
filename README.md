@@ -75,7 +75,7 @@ $$
 Then,
 
 $$
-w(s) = \imag{\zeta(s)}
+w(s) = \Im{\zeta(s)}
 $$
 
 
