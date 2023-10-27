@@ -22,6 +22,16 @@ Pure bending problem for a cantilever beam.
 # Analytical solutions
 Position $\zeta$ on complex coordinates at the midline $s'$ on a cantilever is denoted as follows;
 
-$$\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s'.$$
+$$
+\zeta(s) := \int_0^s e^{j\theta(s')} \rm{d}s'.
+$$
 
 where $\theta$ is the gradient of a cantilever.
+
+From the relationship between bending moment $M$ and curvature $\partial_s \theta(s)$ is represented by
+
+$$
+M(s) = EI \partial_s \theta(s),
+$$
+
+where $EI$ is the bending rigidity.
