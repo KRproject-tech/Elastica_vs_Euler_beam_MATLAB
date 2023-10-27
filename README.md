@@ -35,3 +35,9 @@ M(s) = EI \partial_s \theta(s),
 $$
 
 where $EI$ is the bending rigidity.
+
+The bending moment distribution is constant on a cantilever under pure bending conditions by the bending moment at a free edge $M_0$,
+
+$$
+M(s) = M_0, s \in [ 0, L].
+$$
