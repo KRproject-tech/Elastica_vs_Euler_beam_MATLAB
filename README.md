@@ -48,8 +48,15 @@ $$
 Then, the gradient of a cantilever is obtained as,
 
 $$
-\begin{array}{c}
+\begin{array}{l}
 \partial_s \theta (s) = \frac{M_0}{EI}, \\
-\theta(s) = \frac{M_0}{EI} s + C_0.
+\Rightarrow	\theta(s) = \frac{M_0}{EI} s + C_0 \\
 \end{array}
 $$
+
+From the boundary conditions for clamped edge,
+
+$$
+\theta(0) = C_0 = 0.
+$$
+
