@@ -68,14 +68,17 @@ $$
              &= \int_0^s e^{j\dfrac{M_0}{EI} s'} \rm{d}s' \\
              &= \left. \dfrac{EI}{j M_0} e^{j\dfrac{M_0}{EI} s'} \right\|_0^s \\
              &= -\dfrac{EI}{j M_0} \left( e^{j\dfrac{M_0}{EI} s} - 1 \right) \\
-             &= \dfrac{EI}{M_0} \sin{\dfrac{M_0}{EI} s} + j \dfrac{EI}{M_0} \left( 1 - \cos{\dfrac{M_0}{EI}} \right).
+             &= \dfrac{EI}{M_0} \sin{\dfrac{M_0}{EI} s} + j \dfrac{EI}{M_0} \left( 1 - \cos{\dfrac{M_0}{EI}s} \right).
 \end{array}
 $$
 
 Then,
 
 $$
-w(s) = \Im{\zeta(s)}
+\begin{array}{ll}
+w(s) =  \rm{Im}(\zeta(s))    &=  \dfrac{EI}{M_0} \left( 1 - \cos{\dfrac{M_0}{EI}s} \right) \\
+                             &=: \dfrac{L}{m_0} \left( 1 - \cos{\dfrac{m_0}{L}s} \right)
+\end{array}
 $$
 
 
