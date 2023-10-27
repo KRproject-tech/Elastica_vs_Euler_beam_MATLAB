@@ -60,3 +60,15 @@ $$
 \theta(0) = C_0 = 0.
 $$
 
+Finally the position of the cantilever on the complex coordinates is obtained as follows,
+
+$$
+\begin{array}{ll}
+\zeta(s)     &= \int_0^s e^{j\theta(s')} \rm{d}s' \\
+             &= \int_0^s e^{j\dfrac{M_0}{EI} s'} \rm{d}s' \\
+             &= \left. \dfrac{EI}{j M_0} e^{j\dfrac{M_0}{EI} s'} \right\|_0^s\\
+\end{array}
+$$
+
+
+
