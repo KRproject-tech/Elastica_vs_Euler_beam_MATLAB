@@ -22,6 +22,7 @@ Pure bending problem for a cantilever beam.
 # Analytical solutions
 
 We consider the analytical solutions for displacement under the pure bending problem of a cantilever with a total length $L$. 
+
 Position $\zeta$ on complex coordinates at the midline $s'$ on a cantilever is denoted as follows;
 
 $$
@@ -42,4 +43,11 @@ The bending moment distribution is constant on a cantilever under pure bending c
 
 $$
 M(s) = M_0, s \in [ 0, L].
+$$
+
+Then, the gradient of a cantilever is obtained as,
+
+$$
+\partial_s \theta (s) = \frac{M_0}{EI},
+\theta(s) = \frac{M_0}{EI} s + C_0.
 $$
