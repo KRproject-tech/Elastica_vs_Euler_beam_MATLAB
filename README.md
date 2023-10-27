@@ -48,6 +48,6 @@ $$
 Then, the gradient of a cantilever is obtained as,
 
 $$
-\partial_s \theta (s) = \frac{M_0}{EI},
+\partial_s \theta (s) = \frac{M_0}{EI}, \\
 \theta(s) = \frac{M_0}{EI} s + C_0.
 $$
