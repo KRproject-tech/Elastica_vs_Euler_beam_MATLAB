@@ -60,7 +60,7 @@ $$
 \theta(0) = C_0 = 0.
 $$
 
-Finally the position of the cantilever on the complex coordinates is obtained as follows,
+Finally, the position of the cantilever on the complex coordinates is obtained as follows,
 
 $$
 \begin{array}{ll}
@@ -72,5 +72,10 @@ $$
 \end{array}
 $$
 
+Then,
+
+$$
+w(s) = \imag{\zeta(s)}
+$$
 
 
