@@ -89,3 +89,5 @@ The relationship between $v$ and $w$ is obtained as follows,
 $$
 v^2(s) + w^2(s) = 2 \dfrac{L}{m_0} w(s).
 $$
+
+![Uploading image.png…]()
