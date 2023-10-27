@@ -29,13 +29,13 @@ $$
 \zeta(s) := v(s) + j w(s) = \int_0^s e^{j\theta(s')} \rm{d}s' \in \mathbb{C}.
 $$
 
-where $\theta$ is the gradient of a cantilever, and $v$ and $w$ is the position along $x$ and $y$ directions.
+where $\theta$ is the gradient of a cantilever, and $v$ and $w$ is the position along the $x$ and $y$ directions.
 
 <img width="343" alt="無題" src="https://github.com/KRproject-tech/Elastica_vs_Euler_beam_MATLAB/assets/114337358/b6a1687b-7ae5-4b69-aa2f-065438683bfa">
 
 
 
-From the relationship between bending moment $M$ and curvature $\partial_s \theta(s)$ is represented by
+The relationship between bending moment $M$ and curvature $\partial_s \theta(s)$ is represented by
 
 $$
 M(s) = EI \partial_s \theta(s),
