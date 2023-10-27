@@ -90,4 +90,4 @@ $$
 v^2(s) + w^2(s) = 2 \dfrac{L}{m_0} w(s).
 $$
 
-![Uploading image.png…]()
+<img width="690" alt="image" src="https://github.com/KRproject-tech/Elastica_vs_Euler_beam_MATLAB/assets/114337358/6cb92d4c-c15a-4392-b29f-3c6bc199298f">
